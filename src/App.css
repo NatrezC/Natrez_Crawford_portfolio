@@ -3,49 +3,11 @@
   padding: 0;
 }
 
-/* .App{
-  font-family: Arial, Helvetica, sans-serif;
-  background: #333;
-  color: #fff;
-  line-height: 1.6;
-  height: 100vh;
-  
-} */
-.navbar{
-  position: fixed; 
-  top: 0; 
-  width: 100%
-}
-.active{
-  border-bottom: 1px solid black;
-  
-}
 
-.links{
-  list-style: none;
-  text-align: right;
-  color: #fefefe;
-  
-
-}
-
-.links:hover{
-  cursor:pointer;
-}
-
-.list{
-  font-size: 2em;
-  padding-right: 20px;
-  display: inline;
-}
-.main-section{
-  height: 100vh;
-  background-color: skyblue;
-}
 
 .about-section{
   height: 100vh;
-  background-color: #fefefe;
+  background-color: orange;
 }
 
 .projects-section{
