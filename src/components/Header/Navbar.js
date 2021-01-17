@@ -8,7 +8,7 @@ class Header extends Component {
     render(){
         return (
             <div className='navbar'>
-                <ul>
+                <div className="links">
                     <Link
                         activeClass="active"
                         to="about"
@@ -33,7 +33,9 @@ class Header extends Component {
                         offset={-70}
                         duration={500}
                     >Contact</Link>
-                </ul>
+                    
+                </div>
+                
             </div>
         )
     }
