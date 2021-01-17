@@ -8,7 +8,7 @@ class Contact extends React.Component {
         return (
             <div>
                 
-                    <div className="contact">
+                    <div className="contact-section">
                         <h1>Contact</h1>
                     </div>
                 
