@@ -9,12 +9,17 @@
   color: #fff;
   line-height: 1.6;
   height: 100vh;
+  
 } */
 .navbar{
   position: fixed; 
   top: 0; 
   width: 100%
 }
+.active{
+  border-bottom: 1px solid black;
+}
+
 .links{
   list-style: none;
   text-align: right;
