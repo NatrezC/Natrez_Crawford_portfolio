@@ -5,7 +5,7 @@ import Introduction from './components/Intro/Introduction'
 import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Contact from './components/Contact/Contact';
-import Header from './components/Header/Header';
+import Header from './components/Header/Navbar';
 
 
 function App() {
@@ -13,18 +13,10 @@ function App() {
     <div className="App">
       <div className="container">
         <Header />
-        <section>
-            <Introduction />
-        </section>
-        <section>
+          <Introduction />
           <About />
-        </section>
-        <section>
           <Projects />
-        </section>
-        <section>
           <Contact />
-        </section>
         {/* <Footer /> */}
       </div>
     </div>

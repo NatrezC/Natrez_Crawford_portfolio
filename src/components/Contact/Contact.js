@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Wobble from 'react-reveal/Wobble';
 
 class Contact extends React.Component {
+    state = {}
     render() {
         return (
             <div>
