@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { render } from '@testing-library/react';
+import { Link } from 'react-scroll'
 import './Navbar.css'
 
 class Header extends Component {
@@ -8,9 +9,30 @@ class Header extends Component {
         return (
             <div className='navbar'>
                 <ul>
-                    <li>About</li>
-                    <li>Project</li>
-                    <li>Contact</li>
+                    <Link
+                        activeClass="active"
+                        to="about"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >About</Link>
+                    <Link
+                        activeClass="active"
+                        to="projects"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >Projects</Link>
+                    <Link
+                        activeClass="active"
+                        to="contact"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={500}
+                    >Contact</Link>
                 </ul>
             </div>
         )

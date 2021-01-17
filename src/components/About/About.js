@@ -8,7 +8,7 @@ class About extends React.Component {
         return (
             <div>
                 
-                    <div className="about-section">
+                    <div className="about-section" id="about">
                         <h1>About</h1>
                     </div>
                 
