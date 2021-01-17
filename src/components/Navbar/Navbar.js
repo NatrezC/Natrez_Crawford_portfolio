@@ -9,30 +9,36 @@ class Header extends Component {
         return (
             <div className='navbar'>
                 <div className="links">
-                    <Link
-                        activeClass="active"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                    >About</Link>
-                    <Link
-                        activeClass="active"
-                        to="projects"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                    >Projects</Link>
-                    <Link
-                        activeClass="active"
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        offset={0}
-                        duration={500}
-                    >Contact</Link>
+                    <div className="list">
+                        <Link
+                            activeClass="active"
+                            to="about"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >About</Link>
+                    </div>
+                    <div className="list">
+                        <Link
+                            activeClass="active"
+                            to="projects"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >Projects</Link>
+                    </div>
+                    <div className="list">
+                        <Link
+                            activeClass="active"
+                            to="contact"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={500}
+                        >Contact</Link>
+                    </div>
                     
                 </div>
                 
