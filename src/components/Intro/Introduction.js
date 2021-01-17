@@ -7,7 +7,7 @@ class Introduction extends React.Component {
     render() {
         return (
             <div>
-                    <div className="main-section">
+                    <div className="main-section" id="intro">
                         <Fade left >
                             <h1>Hi! My name is <span>Natrez Crawford</span></h1>
                             <h2>and I am a <span>Full Stack Software Engineer</span></h2>
