@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { render } from '@testing-library/react';
 import { Link, animateScroll as scroll } from 'react-scroll'
 import './Navbar.css'
-import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+import Button from '@material-ui/core/Button'
 
 class Header extends Component {
     state = {};
@@ -12,10 +12,6 @@ class Header extends Component {
     render(){
         return (
             <div className='navbar'>
-                <ArrowUpwardIcon
-                    className="icon"
-                    onClick={this.scrollToTop}
-                />
                 <div className="links">
                     <div className="list">
                         <Link
@@ -48,6 +44,15 @@ class Header extends Component {
                         >Contact</Link>
                     </div>
                     
+                </div>
+                <div className="toTheTop">
+                <Button
+                    variant="contained"
+                    color="primary"
+                    onClick={this.scrollToTop}
+                    disableElevation
+                >SCROLL TO TOP
+                </Button>
                 </div>
                 
             </div>
