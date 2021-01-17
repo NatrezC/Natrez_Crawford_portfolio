@@ -14,7 +14,7 @@ class Header extends Component {
                         to="about"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={0}
                         duration={500}
                     >About</Link>
                     <Link
@@ -22,7 +22,7 @@ class Header extends Component {
                         to="projects"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={0}
                         duration={500}
                     >Projects</Link>
                     <Link
@@ -30,7 +30,7 @@ class Header extends Component {
                         to="contact"
                         spy={true}
                         smooth={true}
-                        offset={-70}
+                        offset={0}
                         duration={500}
                     >Contact</Link>
                     
