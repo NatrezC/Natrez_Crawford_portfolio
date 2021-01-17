@@ -7,7 +7,7 @@ class Contact extends React.Component {
         return (
             <div>
                 <div className='container'>
-                    <div className="intro">
+                    <div className="contact">
                         <Fade left >
                             <h1>Hi! My name is <span>Natrez Crawford</span></h1>
                             <h2>and I am a <span>Full Stack Software Engineer</span></h2>
