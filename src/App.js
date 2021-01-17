@@ -11,12 +11,22 @@ import Header from './components/Header/Header';
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Introduction />
-      <About />
-      <Projects />
-      <Contact />
-      {/* <Footer /> */}
+      <div className="container">
+        <Header />
+        <section>
+            <Introduction />
+        </section>
+        <section>
+          <About />
+        </section>
+        <section>
+          <Projects />
+        </section>
+        <section>
+          <Contact />
+        </section>
+        {/* <Footer /> */}
+      </div>
     </div>
   );
 }

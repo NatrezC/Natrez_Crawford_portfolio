@@ -6,7 +6,7 @@ class Introduction extends React.Component {
     render() {
         return (
             <div>
-                <div className='container'>
+                
                     <div className="intro">
                         <Fade left >
                             <h1>Hi! My name is <span>Natrez Crawford</span></h1>
@@ -21,7 +21,7 @@ class Introduction extends React.Component {
                         Integer eu nibh at nisi ullamcorper sagittis id vel leo. Integer feugiat 
 faucibus libero, at maximus nisl suscipit posuere. Morbi nec enim nunc. </p>
                     </div>
-                </div>
+                
             </div>
         );
     }

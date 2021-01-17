@@ -1,12 +1,13 @@
 import React from 'react'
+import './Header.css'
 
 function Header() {
     return (
         <div>
-            <div className="container">
-                <div className="header">
+            
+                <div className="title">
                     Natrez's Portfolio
-                </div>
+                
             </div>
         </div>
     )

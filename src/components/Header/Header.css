@@ -1,0 +1,16 @@
+.title{
+
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+}
+
+/* .navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+} */
