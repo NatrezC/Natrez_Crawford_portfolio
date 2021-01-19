@@ -10,8 +10,8 @@ class Introduction extends React.Component {
             <div>
                     <div className="main-section" id="intro">
                         <Fade left >
-                            <h1>Hi! My name is <span> Natrez Crawford</span></h1>
-                            <h2>and I am a <span>Full Stack Software Engineer</span></h2>
+                        <h1><strong>Hi! My name is <span>Natrez Crawford</span></strong></h1>
+                        <h2><strong>and I am a <span>Full Stack Software Engineer</span></strong></h2>
                             
                         </Fade>
                         

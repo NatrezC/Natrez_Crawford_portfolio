@@ -6,9 +6,9 @@ import Button from '@material-ui/core/Button'
 
 class Header extends Component {
     
-    scrollToTop = () => {
-        scroll.scrollToTop()
-    }
+    // scrollToTop = () => {
+    //     scroll.scrollToTop()
+    // }
     render(){
         return (
             <div className='navbar'>
@@ -45,7 +45,7 @@ class Header extends Component {
                     </div>
                     
                 </div>
-                <div className="toTheTop" id ="myID">
+                {/* <div className="toTheTop" id ="myID">
                     <Button
                     variant="contained"
                     color="primary"
@@ -53,7 +53,7 @@ class Header extends Component {
                     disableElevation
                 >SCROLL TO TOP
                 </Button>
-                </div>
+                </div> */}
                 
             </div>
         )

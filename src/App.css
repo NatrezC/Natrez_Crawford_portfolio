@@ -19,12 +19,16 @@ span{
 }
 .projects-section{
   height:100vh;
-  background-color: #fefefe;
+  background-color: #f4f9e9;
 }
 
 .contact-section{
   height: 100vh;
-  background-color: red;
+  background-color: #B4B8AB;
+}
+
+.App{
+  background-color:#EEF0EB; 
 }
 
 /* .container{

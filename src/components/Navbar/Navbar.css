@@ -2,10 +2,9 @@
     position: fixed; 
     top: 0; 
     width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    background-color: #EEF0EB;
+    padding-bottom: .5%;
+    
 }
 .active{
     border-bottom: 4px solid black;
@@ -15,7 +14,7 @@
 .links{
     list-style: none;
     text-align: right;
-    color: #fefefe;
+    
 
 }
 
