@@ -46,7 +46,7 @@
     margin-right: 2rem;
 }
 
-.nav-item {
+.nav-item span{
     height: 80px;
 }
 
@@ -62,6 +62,7 @@
 .nav-links:hover span{
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
+    cursor: pointer;
 }
 
 .fa-bars {
@@ -103,20 +104,20 @@
         z-index: 1;
     }
 
-    .nav-links {
+    .nav-links span{
         text-align: center;
         padding: 2rem;
         width: 100%;
         display: table;
     }
 
-    .nav-links:hover {
+    .nav-links:hover span{
         background-color: #fff;
         color: #242424;
         border-radius: 0;
     }
 
-    .navbar-logo {
+    .navbar-logo span{
         position: absolute;
         top: 0;
         left: 0;
@@ -138,7 +139,7 @@
         font-size: 2rem;
     }
 
-    .nav-links-mobile {
+    .nav-links-mobile span{
         display: block;
         text-align: center;
         margin: 2rem auto;
@@ -153,7 +154,7 @@
         transition: all 0.3s ease-out;
     }
 
-    .nav-links-mobile:hover {
+    .nav-links-mobile:hover span{
         background: #fff;
         color: #242424;
         transition: 250ms;
