@@ -7,8 +7,10 @@ function Navbar() {
     // set the state of the clicked button and change it when clicked
     const [click, setClick] = useState(false);
 
-    //handle the click to togle the icons back and forth
+    //handle the click to toggle the icons back and forth
     const handleClick = () => setClick(!click);
+    //handle closing of the menu icon when clicked
+    const closeMobileMenu = () => setClick(false);
 
     return (
         <>
@@ -30,7 +32,7 @@ function Navbar() {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <div className="list">
+                            <div className="nav-links" onClick={closeMobileMenu}>
                                 <Link
                                     activeClass="active"
                                     to="about"
@@ -39,6 +41,30 @@ function Navbar() {
                                     offset={-30}
                                     duration={1000}
                                 ><span><strong>About</strong></span></Link>
+                            </div>
+                        </li>
+                        <li className='nav-item'>
+                            <div className="nav-links" onClick={closeMobileMenu}>
+                                <Link
+                                    activeClass="active"
+                                    to="projects"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-30}
+                                    duration={1000}
+                                ><span><strong>Projects</strong></span></Link>
+                            </div>
+                        </li>
+                        <li className='nav-item'>
+                            <div className="nav-links" onClick={closeMobileMenu}>
+                                <Link
+                                    activeClass="active"
+                                    to="contact"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-30}
+                                    duration={1000}
+                                ><span><strong>Contact</strong></span></Link>
                             </div>
                         </li>
                     </ul>
