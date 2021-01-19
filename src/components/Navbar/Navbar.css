@@ -16,9 +16,10 @@
     align-items: center;
     height: 80px;
     max-width: 1500px;
+    padding-bottom: 10px;
 }
 
-.navbar-logo {
+.navbar-logo span{
     color: #fff;
     justify-self: start;
     margin-left: 20px;
@@ -49,7 +50,7 @@
     height: 80px;
 }
 
-.nav-links {
+.nav-links span{
     color: #fff;
     display: flex;
     align-items: center;
@@ -58,7 +59,7 @@
     height: 100%;
 }
 
-.nav-links:hover {
+.nav-links:hover span{
     border-bottom: 4px solid #fff;
     transition: all 0.2s ease-out;
 }
@@ -74,6 +75,8 @@
 .menu-icon {
     display: none;
 }
+
+
 
 @media screen and (max-width: 960px) {
     .NavbarItems {
@@ -156,6 +159,7 @@
         transition: 250ms;
     }
 }
+
 
 
 

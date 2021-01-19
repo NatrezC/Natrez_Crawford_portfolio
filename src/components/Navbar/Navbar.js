@@ -29,7 +29,7 @@ function Navbar() {
         <>
             <nav className="navbar">
                 <div className="navbar-container">
-                    <div className="list">
+                    <div className="navbar-logo">
                         <Link
                             activeClass="active"
                             to="intro"
@@ -65,7 +65,7 @@ function Navbar() {
                                     smooth={true}
                                     offset={-30}
                                     duration={1000}
-                                ><span><strong>Projects</strong></span></Link>
+                                ><span><strong>Project</strong></span></Link>
                             </div>
                         </li>
                         <li className='nav-item'>
