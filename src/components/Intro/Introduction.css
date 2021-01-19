@@ -3,8 +3,8 @@
     background-color: #153243;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+
 }
 
 .main-section h1{
@@ -70,4 +70,5 @@ span{
 .social-links i{
     color: white;
     font-size: 5em;
+    padding: 8px;
 }
