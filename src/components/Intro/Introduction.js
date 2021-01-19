@@ -21,6 +21,17 @@ class Introduction extends Component{
                                 <p>
                                     HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB
                                 </p>
+                                <div className="social-links">
+                                    {/* Github link */}
+                                    <a href="https://github.com/NatrezC" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-github" aria-hidden="true" />
+                                    </a>
+
+                                    {/* LinkedIn link */}
+                                    <a href="https://www.linkedin.com/in/ndcrawford/" target="_blank" rel="noopener noreferrer">
+                                        <i className="fa fa-linkedin" aria-hidden="true" />
+                                    </a>
+                                </div>
                             </div>
                         </Cell>
                     </Grid>
