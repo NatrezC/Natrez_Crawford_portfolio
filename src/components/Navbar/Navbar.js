@@ -14,6 +14,7 @@ function Navbar() {
     //handle closing of the menu icon when clicked
     const closeMobileMenu = () => setClick(false);
 
+    //shows button when screen is less than 960
     const showButton = () => {
         if (window.innerWidth <= 960) {
             setButton(false);
