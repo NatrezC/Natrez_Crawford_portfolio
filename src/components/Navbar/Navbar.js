@@ -1,3 +1,4 @@
+import { StepButton } from '@material-ui/core';
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll'
 import './Navbar.css'
@@ -6,11 +7,22 @@ import './Navbar.css'
 function Navbar() {
     // set the state of the clicked button and change it when clicked
     const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true);
 
     //handle the click to toggle the icons back and forth
     const handleClick = () => setClick(!click);
     //handle closing of the menu icon when clicked
     const closeMobileMenu = () => setClick(false);
+
+    const showButton = () => {
+        if (window.innerWidth <= 960) {
+            setButton(false);
+        } else {
+            setButton(true)
+        }
+    }
+
+    window.addEventListener('resize', showButton);
 
     return (
         <>
