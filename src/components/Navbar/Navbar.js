@@ -51,7 +51,7 @@ function Navbar() {
                                     to="about"
                                     spy={true}
                                     smooth={true}
-                                    offset={-30}
+                                    offset={-80}
                                     duration={1000}
                                 ><span><strong>About</strong></span></Link>
                             </div>
@@ -63,7 +63,7 @@ function Navbar() {
                                     to="projects"
                                     spy={true}
                                     smooth={true}
-                                    offset={-30}
+                                    offset={-80}
                                     duration={1000}
                                 ><span><strong>Project</strong></span></Link>
                             </div>
@@ -75,7 +75,7 @@ function Navbar() {
                                     to="contact"
                                     spy={true}
                                     smooth={true}
-                                    offset={-30}
+                                    offset={-80}
                                     duration={1000}
                                 ><span><strong>Contact</strong></span></Link>
                             </div>
