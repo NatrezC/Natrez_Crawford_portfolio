@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Fade from 'react-reveal/Fade';
-import Wobble from 'react-reveal/Wobble';
 import './About.css'
 
 class About extends React.Component {
