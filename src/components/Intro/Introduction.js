@@ -1,6 +1,7 @@
 import { LocalDining } from '@material-ui/icons';
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import './Introduction.css'
 
 class Introduction extends Component{
     render() {
@@ -14,7 +15,10 @@ class Introduction extends Component{
                                 alt="avatar"
                                 className="avatar-img"
                             />
-                            
+                            <div className="banner-text">
+                                <h1>Full Stack Software Engineer</h1>
+                                <hr/>
+                            </div>
                         </Cell>
                     </Grid>
                 </div>
