@@ -4,6 +4,12 @@ import './Navbar.css'
 
 
 function Navbar() {
+    // set the state of the clicked button and change it when clicked
+    const [click, setClick] = useState(false);
+
+    //handle the click to togle the icons back and forth
+    const handleClick = () => setClick(!click);
+
     return (
         <>
             <nav className="navbar">
@@ -18,9 +24,25 @@ function Navbar() {
                             duration={1000}
                         ><span><strong>Natrez Crawford</strong></span></Link>
                     </div>
-                    <div className="menu-icon">
-                        
+                    <div className="menu-icon" onClick={handleClick}>
+                        {/* if clicked then toggle between icons */}
+                        <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
                     </div>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className='nav-item'>
+                            <div className="list">
+                                <Link
+                                    activeClass="active"
+                                    to="about"
+                                    spy={true}
+                                    smooth={true}
+                                    offset={-30}
+                                    duration={1000}
+                                ><span><strong>About</strong></span></Link>
+                            </div>
+                        </li>
+                    </ul>
+                        
                 </div>
             </nav>
         </>
