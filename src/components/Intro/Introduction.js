@@ -17,7 +17,10 @@ class Introduction extends Component{
                             />
                             <div className="banner-text">
                                 <h1>Full Stack Software Engineer</h1>
-                                <hr/>
+                                <hr />
+                                <p>
+                                    HTML/CSS | JavaScript | React | NodeJS | Express | MongoDB
+                                </p>
                             </div>
                         </Cell>
                     </Grid>
