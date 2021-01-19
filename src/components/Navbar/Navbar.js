@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll'
+import './Navbar.css'
 
 
 function Navbar() {
@@ -10,12 +11,15 @@ function Navbar() {
                     <div className="list">
                         <Link
                             activeClass="active"
-                            to="about"
+                            to="intro"
                             spy={true}
                             smooth={true}
                             offset={-30}
                             duration={1000}
                         ><span><strong>Natrez Crawford</strong></span></Link>
+                    </div>
+                    <div className="menu-icon">
+                        
                     </div>
                 </div>
             </nav>

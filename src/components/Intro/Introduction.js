@@ -6,7 +6,7 @@ import './Introduction.css'
 class Introduction extends Component{
     render() {
         return (
-            <div className="main-section">
+            <div className="main-section" id="intro">
                 <div style={{width: '100%', margin: 'auto'}}>
                     <Grid className="intro-grid">
                         <Cell col={12}>
