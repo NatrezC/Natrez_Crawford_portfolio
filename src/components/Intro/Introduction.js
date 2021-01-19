@@ -1,10 +1,12 @@
 import { LocalDining } from '@material-ui/icons';
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Fade from 'react-reveal/Fade'
 import './Introduction.css'
 
 class Introduction extends Component{
     render() {
+        
         return (
             <div className="main-section" id="intro">
                 <div style={{width: '100%', margin: 'auto'}}>
@@ -15,6 +17,8 @@ class Introduction extends Component{
                                 alt="avatar"
                                 className="avatar-img"
                             />
+                            <Fade left>
+
                             <div className="banner-text">
                                 <h1>Full Stack Software Engineer</h1>
                                 <hr />
@@ -33,6 +37,7 @@ class Introduction extends Component{
                                     </a>
                                 </div>
                             </div>
+                            </Fade>
                         </Cell>
                     </Grid>
                 </div>
