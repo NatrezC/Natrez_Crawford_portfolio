@@ -4,12 +4,19 @@
 }
 
 
-
-.about-section{
-  height: 100vh;
-  background-color: orange;
+h1{
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
 }
 
+h2{
+    font-size: 60px;
+}
+
+span{
+    color: white;
+}
 .projects-section{
   height:100vh;
   background-color: green;

@@ -1,0 +1,12 @@
+
+.about-section{
+    height: 100vh;
+    background-color: orange;
+}
+
+.about-section p{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

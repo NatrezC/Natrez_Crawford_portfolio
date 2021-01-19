@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Wobble from 'react-reveal/Wobble';
+import './About.css'
 
 class About extends React.Component {
     state = {}
@@ -9,6 +10,11 @@ class About extends React.Component {
             <div>
                 <div className="about-section" id="about">
                     <h1>About</h1>
+                    <img 
+                        src="/images/Me.jpg"
+                        alt="avatar"
+                        style={{ height: '250px', border: '3px solid black', background: 'grey', borderRadius: '30px' }}
+                        />
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque nisl eros,
                     pulvinar facilisis justo mollis, auctor consequat urna. Morbi a bibendum metus.
                     Donec scelerisque sollicitudin enim eu venenatis. Duis tincidunt laoreet ex,
